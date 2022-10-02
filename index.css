@@ -1,5 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+:root {
 
+   /* Primary */
+
+--clr-darkblue: hsl(233, 47%, 7%);  /* (main background) */
+--clr-desaturatedblue: hsl(244, 38%, 16%); /* (card background) */
+--clr-violet: hsl(277, 64%, 61%); /* (accent) */
+
+    /* Neutral */
+
+--clr-white: hsl(0, 0%, 100%); /* (main heading, stats) */
+--clr-transparentwhite : hsla(0, 0%, 100%, 0.75); /* (main paragraph) */
+--clr-transparent-white2: hsla(0, 0%, 100%, 0.6); /* (stat headings) */
+}
 
 .attribution { 
     font-size: 11px; 
