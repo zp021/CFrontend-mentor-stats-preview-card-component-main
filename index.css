@@ -65,11 +65,15 @@ img {
     opacity: 0.5;
 }
 
+.container .text {
+    padding: 0 1.5rem;
+}
+
 .container h1 {
     font-family: "Inter", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 700;
-    padding: 0 1.25rem;
+    letter-spacing: 1px;
     margin-top: 2.5rem;
 }
 
@@ -79,21 +83,20 @@ img {
 
 .container p {
     color: var(--clr-transparent-white2);
-    font-family: "Lexend Deca", sans-serif;
     font-size: 1rem;
     font-weight: 300;
-    padding: 0 1.25rem;
+    line-height: 1.6;
     margin-top: 1.375rem;
 }
 
 .container ul {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
 }
 
 .container li {
     display: flex;
     flex-direction: column;
-    padding: 0.75rem 0;
+    padding: 1rem 0;
     color: var(--clr-transparent-white2);
     font-size: 0.75rem;
     letter-spacing: 1px;
@@ -105,11 +108,11 @@ img {
     font-size: 1.25rem;
     font-weight: 700;
     text-transform: lowercase;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
 }
 
-.container li span:first-of-type {
-    color: var(--clr-violet);
+.container #upper {
+    text-transform: uppercase;
 }
 
 .attribution { 
