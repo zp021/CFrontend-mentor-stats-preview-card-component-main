@@ -69,7 +69,7 @@ img {
     padding: 0 1.5rem;
 }
 
-.container h1 {
+.container .text h1 {
     font-family: "Inter", sans-serif;
     font-size: 1.7rem;
     font-weight: 700;
@@ -77,11 +77,11 @@ img {
     margin-top: 2.5rem;
 }
 
-.container h1 span {
+.container .text h1 span {
     color: var(--clr-violet);
 }
 
-.container p {
+.container .text p {
     color: var(--clr-transparent-white2);
     font-size: 1rem;
     font-weight: 300;
@@ -89,11 +89,11 @@ img {
     margin-top: 1.25rem;
 }
 
-.container ul {
+.container .text ul {
     margin-top: 1.5rem;
 }
 
-.container li {
+.container .text li {
     display: flex;
     flex-direction: column;
     padding: 1rem 0;
@@ -103,7 +103,7 @@ img {
     text-transform: uppercase;
 }
 
-.container li span {
+.container .text li span {
     color: var(--clr-white);
     font-size: 1.25rem;
     font-weight: 700;
@@ -122,4 +122,57 @@ img {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 765px) {
+
+    .container {
+        width: 69.375rem;
+        height: 28.125rem;
+
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .container .image {
+        background: url(./images/image-header-desktop.jpg) no-repeat center/cover;
+        height: 28.125rem;
+        min-width: 50%;
+        border-radius: 0 0.5rem 0.5rem 0;
+    }
+
+    .container .image .overlay {
+        height: 28.125rem;
+        border-radius: 0 0.5rem 0.5rem 0;
+    }
+
+    .container .text {
+        height: 28.125rem;
+        padding-left: 4rem;
+        padding-right: 0;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .container .text h1 {
+        font-size: 2rem;
+        padding-right: 4rem;
+        margin-top: 4.875rem;
+    }
+
+    .container .text p {
+        padding-right: 6rem;
+        margin-top: 1.5rem;
+    }
+
+    .container .text ul {
+        display: flex;
+        flex-direction: row;
+        margin-top: 4.5rem;
+    }
+
+    .container .text li {
+        padding: 0 4rem 0 0;
+    }
+    
 }
