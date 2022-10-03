@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
--[Solution URL](https://your-solution-url.com)
--[Live site URL](https://zp021-stats-preview-card-component.netlify.app/)
+- [Solution URL](https://your-solution-url.com)
+- [Live site URL](https://zp021-stats-preview-card-component.netlify.app/)
 
 ## My process
 
