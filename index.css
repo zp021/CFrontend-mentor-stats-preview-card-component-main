@@ -59,7 +59,7 @@ img {
 }
 
 .container .image .overlay {
-    background-color: var(--clr-violet);
+    background-color: hsl(283, 100%, 20%);
     border-radius: 0.5rem 0.5rem 0 0;
     height: 15rem;
     opacity: 0.5;
@@ -163,6 +163,10 @@ img {
     .container .text p {
         padding-right: 6rem;
         margin-top: 1.5rem;
+    }
+
+    .container .text li span {
+        font-size: 1.5rem;
     }
 
     .container .text ul {
